@@ -12,9 +12,14 @@
 		850A0C8221C3B4E70059299A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 850A0C8021C3B4E70059299A /* Main.storyboard */; };
 		850A0C8421C3B4EB0059299A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 850A0C8321C3B4EB0059299A /* Assets.xcassets */; };
 		850A0C8721C3B4EB0059299A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 850A0C8521C3B4EB0059299A /* LaunchScreen.storyboard */; };
+		850A0C8F21C3B5A10059299A /* CalendarSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 850A0C8E21C3B5A10059299A /* CalendarSelection.swift */; };
+		850A0C9121C3B5EF0059299A /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 850A0C9021C3B5EF0059299A /* Extensions.swift */; };
+		850A0C9321C3B97C0059299A /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 850A0C9221C3B97C0059299A /* Utility.swift */; };
+		BB257AB177419D212B04F675 /* Pods_JTCalendarCustom.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8961D9B77F98F4849F99A312 /* Pods_JTCalendarCustom.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6636680311EFD2C6A17C20C7 /* Pods-JTCalendarCustom.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JTCalendarCustom.release.xcconfig"; path = "Pods/Target Support Files/Pods-JTCalendarCustom/Pods-JTCalendarCustom.release.xcconfig"; sourceTree = "<group>"; };
 		850A0C7921C3B4E70059299A /* JTCalendarCustom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JTCalendarCustom.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		850A0C7C21C3B4E70059299A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		850A0C7E21C3B4E70059299A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +27,11 @@
 		850A0C8321C3B4EB0059299A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		850A0C8621C3B4EB0059299A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		850A0C8821C3B4EB0059299A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		850A0C8E21C3B5A10059299A /* CalendarSelection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarSelection.swift; sourceTree = "<group>"; };
+		850A0C9021C3B5EF0059299A /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		850A0C9221C3B97C0059299A /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		8961D9B77F98F4849F99A312 /* Pods_JTCalendarCustom.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JTCalendarCustom.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B3D708B7EB0F9EECEF22895 /* Pods-JTCalendarCustom.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JTCalendarCustom.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JTCalendarCustom/Pods-JTCalendarCustom.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +39,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB257AB177419D212B04F675 /* Pods_JTCalendarCustom.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C5142DD907E73FA47D26DA0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8961D9B77F98F4849F99A312 /* Pods_JTCalendarCustom.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		850A0C7021C3B4E70059299A = {
 			isa = PBXGroup;
 			children = (
 				850A0C7B21C3B4E70059299A /* JTCalendarCustom */,
 				850A0C7A21C3B4E70059299A /* Products */,
+				D3483766AC7EE052B826F37A /* Pods */,
+				0C5142DD907E73FA47D26DA0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,12 +77,24 @@
 			children = (
 				850A0C7C21C3B4E70059299A /* AppDelegate.swift */,
 				850A0C7E21C3B4E70059299A /* ViewController.swift */,
+				850A0C8E21C3B5A10059299A /* CalendarSelection.swift */,
+				850A0C9021C3B5EF0059299A /* Extensions.swift */,
+				850A0C9221C3B97C0059299A /* Utility.swift */,
 				850A0C8021C3B4E70059299A /* Main.storyboard */,
 				850A0C8321C3B4EB0059299A /* Assets.xcassets */,
 				850A0C8521C3B4EB0059299A /* LaunchScreen.storyboard */,
 				850A0C8821C3B4EB0059299A /* Info.plist */,
 			);
 			path = JTCalendarCustom;
+			sourceTree = "<group>";
+		};
+		D3483766AC7EE052B826F37A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8B3D708B7EB0F9EECEF22895 /* Pods-JTCalendarCustom.debug.xcconfig */,
+				6636680311EFD2C6A17C20C7 /* Pods-JTCalendarCustom.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +104,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 850A0C8B21C3B4EB0059299A /* Build configuration list for PBXNativeTarget "JTCalendarCustom" */;
 			buildPhases = (
+				D0BD57A267769A4FF164D386 /* [CP] Check Pods Manifest.lock */,
 				850A0C7521C3B4E70059299A /* Sources */,
 				850A0C7621C3B4E70059299A /* Frameworks */,
 				850A0C7721C3B4E70059299A /* Resources */,
+				BC2B5AEC72B8390413406C57 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,13 +165,55 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		BC2B5AEC72B8390413406C57 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-JTCalendarCustom/Pods-JTCalendarCustom-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/JTAppleCalendar/JTAppleCalendar.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JTAppleCalendar.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JTCalendarCustom/Pods-JTCalendarCustom-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D0BD57A267769A4FF164D386 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JTCalendarCustom-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		850A0C7521C3B4E70059299A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				850A0C9321C3B97C0059299A /* Utility.swift in Sources */,
+				850A0C8F21C3B5A10059299A /* CalendarSelection.swift in Sources */,
 				850A0C7F21C3B4E70059299A /* ViewController.swift in Sources */,
 				850A0C7D21C3B4E70059299A /* AppDelegate.swift in Sources */,
+				850A0C9121C3B5EF0059299A /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,11 +357,13 @@
 		};
 		850A0C8C21C3B4EB0059299A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B3D708B7EB0F9EECEF22895 /* Pods-JTCalendarCustom.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7U7Y6X4XL2;
 				INFOPLIST_FILE = JTCalendarCustom/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -298,11 +377,13 @@
 		};
 		850A0C8D21C3B4EB0059299A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6636680311EFD2C6A17C20C7 /* Pods-JTCalendarCustom.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7U7Y6X4XL2;
 				INFOPLIST_FILE = JTCalendarCustom/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
